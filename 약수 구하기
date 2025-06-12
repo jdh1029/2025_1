@@ -1,0 +1,23 @@
+#include <stdio.h>
+ 
+int main()
+{
+    int num, i, cnt=0;
+ 
+ 
+    printf ("숫자를 입력하세요 : ");
+    scanf ("%d", &num);
+ 
+ 
+    for (i=2; i<num; i++) {
+            printf ("%d %% %d = %d\n",num,i,num%i);
+            if (num % i == 0)
+                cnt++;
+    }
+ 
+    printf ("약수의 개수 : %d",cnt);
+ 
+ 
+    return 0;
+ }
+[출처] C언어, 소스 입력 받은 수의 약수의 개수를 구하는 프로그램, 산본컴퓨터학원|작성자 생활서비스
