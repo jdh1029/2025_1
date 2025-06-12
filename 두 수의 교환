@@ -1,0 +1,19 @@
+#include <stdio.h>
+ 
+int main()
+{
+    int num1, num2, temp;
+ 
+    printf ("두 수를 입력하세요 : ");
+    scanf ("%d %d",&num1, &num2);
+ 
+    temp = num1;
+    num1 = num2;
+    num2 =temp;
+ 
+    printf ("교환 된 두 수 : %d %d",num1, num2);
+ 
+    return 0;
+ }
+[출처] C언어 소스, 두 수를 입력 받아서 교환하는 프로그램|작성자 생활서비스
+
